@@ -43,4 +43,60 @@ This task involves backtesting three different options trading strategies.
 3.  **Execute backtests:** Run the backtesting functions using the sample or historical data, simulating the trading strategy over a specified period.
 4.  **Calculate P&L:** Compute the profit and loss (P&L) for each strategy based on the backtesting results.
 
-**Example: Short Call Strategy**
+
+# Task-2 README
+
+## Description
+
+This notebook focuses on analyzing the differences between various call calendar strategies, particularly in terms of risk, reward, time decay, and volatility impact.
+
+
+## Objectives
+
+* Implement backtesting functionalities for different trading strategies.
+* Analyze the profit and loss (P&L) profiles for various market conditions and scenarios.
+* Explore the impact of time to expiry and volatility on strategy performance.
+* Compare the effectiveness of strategies in scenarios like bullish, bearish, and high volatility markets.
+
+
+## Approach
+
+The notebook adopts a Python-based approach, utilizing libraries like Pandas, Matplotlib, and NumPy for data manipulation, backtesting, and visualization. The primary steps involved are:
+
+1. **Data Loading and Preparation:**
+    * Extract Banknifty CSV data.
+    * Prepare the data for analysis.
+
+2. **Strategy Development:**
+    * Implement backtesting functions for the following strategies:
+        * Long Straddle
+        * Covered Call
+        * Protective Put
+
+3. **Scenario Analysis:**
+    * Develop a function to compare scenarios with differing time to expiry for call calendars.
+
+4. **Visualization:**
+    * Plot P&L profiles to compare the effectiveness of strategies in different scenarios.
+
+## Task 2: Call Calendar Analysis
+
+This section focuses on analyzing call calendar strategies in different scenarios:
+
+
+### Scenario 1: Short call with 60 days to expiry and long call with 70 days to expiry.
+
+* Analyze the risk-reward profile, time decay effects, and volatility impacts.
+* Discuss how the differing time horizons affect strategy performance and potential adjustments needed.
+
+
+### Scenario 2: Short call with 0 days to expiry and long call with 1 day to expiry.
+
+* Analyze the risk-reward profile, time decay effects, and volatility impacts.
+* Discuss how the differing time horizons affect strategy performance and potential adjustments needed.
+
+
+## Conclusion
+
+The analysis provides insights into how call calendar strategies react to different market conditions and time horizons.
+
